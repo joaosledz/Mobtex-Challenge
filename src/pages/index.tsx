@@ -1,8 +1,7 @@
+/* eslint-disable */
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { olimpicsApi, TypeList } from '@/services';
-// import Image from 'next/image';
-// import List from '@/components/list';
 import ImageList from '@/components/imageList';
 import styles from '@/styles/Home.module.scss';
 
