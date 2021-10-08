@@ -1,3 +1,4 @@
+/* eslint-disable */
 export type TypeItem = {
   id: number;
   name: string;
