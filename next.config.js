@@ -1,3 +1,10 @@
 module.exports = {
-  reactStrictMode: true,
+  async rewrites() {
+    return [
+      {
+        source: '/',
+        destination: 'https://app.olimpiadas.app/teste',
+      },
+    ];
+  },
 };
